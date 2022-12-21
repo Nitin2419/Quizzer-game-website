@@ -1,0 +1,104 @@
+
+.header{
+    height: 10vh;
+    background-color: aquamarine;
+    display: flex;
+    width: 100vw;
+    margin: auto;
+    position: fixed;
+    border-radius: 10px;
+}
+
+.header a{
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+.header a:active{
+    background-color: transparent;
+    color: red;
+}
+
+.header img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.top{
+    border-radius: 5px;
+    height: 30vh;
+    width: 95vw;
+    margin: auto;
+    text-align: justify;
+    background-color: rgb(126, 223, 223);
+    box-shadow: 0px 8px 16px 0px grey;
+}
+
+.top h1{
+    padding-top: 60px;
+    font-family: cursive;
+    font-size: 5vh;
+    margin-left: 20px;
+}
+
+.top p{
+    font-size: 2vh;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+    margin-left: 20px;
+    width: auto;
+    display: flexbox;
+}
+
+.top img{
+    margin-left: 40%;
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.box{
+    height: 350px;
+    margin-top: 50px;
+}
+
+.container{margin-top: 70px;}
+
+.caption{
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgb(35, 35, 35);
+}
+
+.thumbnail p{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.thumbnail:hover{background-color: aquamarine;}
+.thumbnail p:hover{color: red;;}
+.thumbnail p:active{color: green;}
+
+.footer{
+    padding: 90px;
+    height: 20vh;
+    background-color: rgb(190, 248, 229);
+    margin-top: 10px; 
+    text-align: center;  
+}
+
+.footer2{
+    line-height: 2;
+    font-style: oblique;
+    line-height: 1.9;
+}
+
+
+
+

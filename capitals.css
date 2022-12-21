@@ -1,0 +1,122 @@
+.header{
+    height: 10vh;
+    display: flex;
+    width: 100vw;
+    height: 12vh;
+    margin: auto;
+    position: relative;
+}
+
+.hero{
+    background-image: url(../Assets/capitals.jpeg);
+    box-shadow: 0px 8px 16px 0px rgb(66, 65, 65);
+}
+
+.header.header{
+    margin: auto;
+    opacity: 0.6;
+    background-color: #ffffff;
+}
+
+.header a{
+    margin-left: 10px;
+    color: black;
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.header h2{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.header a:hover{
+    color: red;
+}
+
+.header a:active{
+    color: green;
+    
+}
+
+.header img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.top{
+    border-radius: 5px;
+    height: 30vh;
+    width: 95vw;
+    margin:auto;
+    text-align: justify;
+    background-color: rgb(126, 223, 223);
+    box-shadow: 0px 8px 16px 0px grey;
+}
+
+.top h1{
+    padding-top: 60px;
+    margin-top: -30px;
+    font-family: cursive;
+    font-size: 5vh;
+    margin-left: 20px;
+}
+
+.top p{
+    font-style: italic;
+    font-family: serif;
+    margin-left: 20px;
+    width: auto;
+    font-size: 3vh;
+    color: rgb(75, 73, 73);
+}
+
+.top img{
+    margin-left: 40%;
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.box{
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px grey;
+    height: 150vh;
+}
+
+.container{
+    margin: auto;
+    margin: 150px 0px 0px 20px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+
+.pager{
+    text-align: center;
+    font-size: 30px;
+}
+
+.ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.footer{
+    padding: 90px;
+    height: 20vh;
+    background-color: rgb(190, 248, 229);
+    margin-top: 10px; 
+    text-align: center;  
+}
+
+.footer2{
+    line-height: 2;
+    font-style: oblique;
+    line-height: 1.9;
+}
